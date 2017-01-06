@@ -1,0 +1,14 @@
+call plug#begin('~/.vim/plugged')
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-easytags'
+Plug 'thoughtbot/vim-rspec'
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-dispatch'
+Plug 'scrooloose/syntastic'
+Plug 'rking/ag.vim'
+Plug 'ervandew/supertab'
+call plug#end()
