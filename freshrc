@@ -9,6 +9,6 @@ fresh shell/\*
 
 fresh vim/global.vim --file=~/.vimrc
 fresh vim/plugins.vim --file=~/.vimrc
+fresh vim/colors.vim --file=~/.vimrc
 fresh vim/after --file=~/.vim/after/
 fresh vim/autoload --file=~/.vim/autoload/
-fresh vim/colors --file=~/.vim/colors/

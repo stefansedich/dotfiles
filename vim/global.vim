@@ -42,5 +42,3 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 map <C-m> :NERDTreeToggle<CR>
-
-colorscheme onedark
