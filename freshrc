@@ -7,8 +7,11 @@ fresh gitconfig --file
 
 fresh shell/\*
 
-fresh vim/global.vim --file=~/.vimrc
-fresh vim/plugins.vim --file=~/.vimrc
-fresh vim/colors.vim --file=~/.vimrc
 fresh vim/after --file=~/.vim/after/
 fresh vim/autoload --file=~/.vim/autoload/
+fresh-options --file=~/.vimrc
+  fresh vim/global.vim
+  fresh vim/plugins.vim
+  fresh vim/colors.vim
+  fresh vim/keys.vim
+fresh-options

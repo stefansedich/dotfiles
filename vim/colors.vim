@@ -1,3 +1,5 @@
+set background=dark 
+
 if (empty($TMUX))
   if (has("nvim"))
   "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
@@ -10,7 +12,5 @@ if (empty($TMUX))
     set termguicolors
   endif
 endif
-
-set background=dark 
 
 colorscheme one
