@@ -3,9 +3,11 @@
 fresh freshshell/fresh bin/fresh --bin
 fresh freshshell/fresh contrib/source-build.sh --file=~/.zshrc
 
+fresh gitconfig --file
+
 fresh shell/\*
 
 fresh vim/global.vim --file=~/.vimrc
 fresh vim/plugins.vim --file=~/.vimrc
-fresh vim/colors --file=~/.vim/colors
-fresh vim/after --file=~/.vim/after
+fresh vim/colors --file=~/.vim/colors/
+fresh vim/after --file=~/.vim/after/
