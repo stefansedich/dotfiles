@@ -11,4 +11,4 @@ map <Leader>a :call RunAllSpecs()<CR>
 map <C-m> :NERDTreeToggle<CR>
 
 map <C-t> :TagbarToggle<CR>
-map <C-p><C-t> :CtrlPTag<CR>
+map <nowait> <C-p><C-t> :CtrlPTag<CR>
