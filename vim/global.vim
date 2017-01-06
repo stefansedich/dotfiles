@@ -18,7 +18,7 @@ filetype indent on
 filetype plugin on
 
 let g:onedark_termcolors = 16
-let g:airline_theme = 'onedark'
+let g:airline_theme = 'one'
 let g:airline_powerline_fonts = 1
 let g:easytags_dynamic_files = 1
 let g:easytags_async = 1
