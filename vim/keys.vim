@@ -9,6 +9,4 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 map <C-m> :NERDTreeToggle<CR>
-
 map <C-t> :TagbarToggle<CR>
-map <nowait> <C-p><C-t> :CtrlPTag<CR>
