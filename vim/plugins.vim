@@ -12,4 +12,5 @@ Plug 'tpope/vim-dispatch'
 Plug 'scrooloose/syntastic'
 Plug 'rking/ag.vim'
 Plug 'ervandew/supertab'
+Plug 'majutsushi/tagbar'
 call plug#end()
