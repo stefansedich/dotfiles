@@ -44,9 +44,4 @@ map <Leader>a :call RunAllSpecs()<CR>
 
 map <C-m> :NERDTreeToggle<CR>
 
-noremap <Up> :echo "No up for you!"<CR>
-noremap <Down> :echo "No down up for you!"<CR>
-noremap <Left> :echo "No left for you!"<CR>
-noremap <Right> :echo "No right for you!"<CR>
-
 colorscheme onedark
