@@ -11,4 +11,6 @@ if (empty($TMUX))
   endif
 endif
 
+set background=dark 
+
 colorscheme one
