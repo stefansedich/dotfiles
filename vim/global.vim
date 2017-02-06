@@ -12,6 +12,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set omnifunc=syntaxcomplete#Complete
 set clipboard=unnamed
+set mouse=a
 
 filetype on
 filetype indent on
