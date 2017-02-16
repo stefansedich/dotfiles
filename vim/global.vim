@@ -11,12 +11,8 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set omnifunc=syntaxcomplete#Complete
-set clipboard=unnamed
+set clipboard=unnamed,unnamedplus
 set mouse=a
-
-if has('unnamedplus')
-  set clipboard=unnamed,unnamedplus
-endif
 
 filetype on
 filetype indent on
