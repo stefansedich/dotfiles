@@ -13,4 +13,5 @@ Plug 'scrooloose/syntastic'
 Plug 'rking/ag.vim'
 Plug 'ervandew/supertab'
 Plug 'majutsushi/tagbar'
+Plug 'wellle/targets.vim'
 call plug#end()
