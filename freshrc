@@ -15,3 +15,7 @@ fresh-options --file=~/.vimrc
   fresh vim/colors.vim
   fresh vim/keys.vim
 fresh-options
+
+fresh-options --file=~/.tmux.conf
+  fresh tmux/global.conf
+fresh-options
