@@ -26,6 +26,7 @@ let g:rspec_command = "Dispatch bundle exec rspec {spec}"
 let g:rspec_runner = "os_x_iterm"
 let g:syntastic_ruby_checkers = ['rubocop', 'rubylint']
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_ruby_rubocop_args = '--force-exclusion'
 let g:syntastic_javascript_eslint_exec = system('PATH=$(npm bin):$PATH which eslint | tr -d "\n"')
 let g:syntastic_javascript_eslint_exe = 'PATH=$(npm bin):$PATH eslint'
 let g:syntastic_always_populate_loc_list = 1
