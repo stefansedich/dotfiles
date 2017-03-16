@@ -13,4 +13,5 @@ Plug 'scrooloose/syntastic'
 Plug 'rking/ag.vim'
 Plug 'ervandew/supertab'
 Plug 'majutsushi/tagbar'
+Plug 'mtscout6/syntastic-local-eslint.vim'
 call plug#end()
