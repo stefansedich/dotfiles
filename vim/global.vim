@@ -13,6 +13,7 @@ set statusline+=%*
 set omnifunc=syntaxcomplete#Complete
 set clipboard=unnamed,unnamedplus
 set mouse=a
+set autoread
 
 filetype on
 filetype indent on
