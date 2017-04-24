@@ -4,7 +4,7 @@ set nocompatible
 set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 set list
-set listchars=tab:->,space:.
+set listchars=tab:▸\ ,space:.
 set laststatus=2
 set number
 set hidden
