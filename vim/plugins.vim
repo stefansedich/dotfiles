@@ -15,5 +15,4 @@ Plug 'ervandew/supertab'
 Plug 'majutsushi/tagbar'
 Plug 'mtscout6/syntastic-local-eslint.vim'
 Plug 'ecomba/vim-ruby-refactoring'
-Plug 'tpope/vim-sleuth'
 call plug#end()
