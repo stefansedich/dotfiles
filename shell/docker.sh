@@ -1,5 +1,5 @@
 docker-ecr-login() {
-  $(aws ecr get-login --region us-east-1)
+  $(aws ecr get-login --no-include-email --region us-east-1)
 }
 
 docker-cleanup() {
