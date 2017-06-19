@@ -14,7 +14,7 @@
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
-  editor = vim
+  editor = nvim
 [sendemail]
   from = Stefan Sedich <stefan.sedich@gmail.com>
   smtpuser = stefan.sedich@gmail.com
