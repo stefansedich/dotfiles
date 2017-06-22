@@ -17,7 +17,7 @@ set clipboard=unnamed,unnamedplus
 set mouse=a
 set autoread
 
-if has(“termguicolors”)
+if has("termguicolors")
   set termguicolors
 endif
 
