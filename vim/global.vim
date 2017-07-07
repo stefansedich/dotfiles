@@ -25,6 +25,7 @@ filetype on
 filetype indent on
 filetype plugin on
 
+let NERDTreeShowHidden=1
 let g:airline_theme = 'one'
 let g:airline_powerline_fonts = 1
 let g:easytags_dynamic_files = 1
