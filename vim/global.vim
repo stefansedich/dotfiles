@@ -17,10 +17,6 @@ set clipboard=unnamed,unnamedplus
 set mouse=a
 set autoread
 
-if has("termguicolors")
-  set termguicolors
-endif
-
 filetype on
 filetype indent on
 filetype plugin on
