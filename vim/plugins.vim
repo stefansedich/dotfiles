@@ -16,4 +16,5 @@ Plug 'majutsushi/tagbar'
 Plug 'mtscout6/syntastic-local-eslint.vim'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'tpope/vim-sleuth'
+Plug 'honza/vim-snippets'
 call plug#end()
