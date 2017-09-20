@@ -17,6 +17,7 @@ Plug 'mtscout6/syntastic-local-eslint.vim'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'tpope/vim-sleuth'
 Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
 call plug#end()
