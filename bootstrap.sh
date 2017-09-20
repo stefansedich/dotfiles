@@ -7,3 +7,6 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 # Setup neovim symlinks to vim config
 ln -s ~/.vim ~/.config/nvim
 ln -s ~/.vimrc ~/.config/nvim/init.vim
+
+# Setup neovim python support
+pip install --user neovim
