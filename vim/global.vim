@@ -27,6 +27,7 @@ let g:airline_powerline_fonts = 1
 let g:easytags_dynamic_files = 1
 let g:easytags_async = 1
 let g:rspec_command = "Dispatch bundle exec rspec --format progress {spec}"
+let g:syntastic_go_checkers = ['govet', 'errcheck', 'go']
 let g:syntastic_ruby_checkers = ['rubocop', 'rubylint']
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_ruby_rubocop_args = '--force-exclusion'
