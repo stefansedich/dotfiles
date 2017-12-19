@@ -18,4 +18,5 @@ Plug 'ecomba/vim-ruby-refactoring'
 Plug 'tpope/vim-sleuth'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'fatih/vim-go'
 call plug#end()
