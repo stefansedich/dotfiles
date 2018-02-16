@@ -19,5 +19,4 @@ Plug 'tpope/vim-sleuth'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'fatih/vim-go'
-Plug 'FredKSchott/CoVim'
 call plug#end()
