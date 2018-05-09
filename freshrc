@@ -12,6 +12,7 @@ fresh vim/autoload --file=~/.vim/autoload/
 fresh-options --file=~/.vimrc
   fresh vim/global.vim
   fresh vim/plugins.vim
+  fresh vim/commands.vim
   fresh vim/colors.vim
   fresh vim/keys.vim
   fresh vim/undo.vim
