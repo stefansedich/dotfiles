@@ -1,1 +1,1 @@
-com! FormatJSON %!jq '.'
+command FormatJSON %!jq '.'
