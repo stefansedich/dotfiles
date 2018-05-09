@@ -10,10 +10,10 @@ fresh shell/\*
 fresh vim/after --file=~/.vim/after/
 fresh vim/autoload --file=~/.vim/autoload/
 fresh-options --file=~/.vimrc
-  fresh vim/colors.vim
   fresh vim/global.vim
-  fresh vim/keys.vim
   fresh vim/plugins.vim
+  fresh vim/colors.vim
+  fresh vim/keys.vim
   fresh vim/undo.vim
 fresh-options
 
