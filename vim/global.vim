@@ -9,8 +9,6 @@ set laststatus=2
 set number
 set hidden
 set tags=./.tags;,~/.vimtags
-set statusline+=%#warningmsg#
-set statusline+=%*
 set clipboard=unnamed,unnamedplus
 set mouse=a
 set autoread
