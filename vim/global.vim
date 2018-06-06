@@ -22,6 +22,7 @@ let g:airline_theme = 'one'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#ale#enabled = 1
 let g:ale_completion_enabled = 1
+let g:deoplete#enable_at_startup = 1
 let g:easytags_dynamic_files = 1
 let g:easytags_async = 1
 let g:rspec_command = "Dispatch bundle exec rspec --format progress {spec}"
