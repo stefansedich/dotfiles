@@ -19,4 +19,5 @@ Plug 'honza/vim-snippets'
 Plug 'fatih/vim-go'
 Plug 'w0rp/ale'
 Plug 'hackhowtofaq/vim-solargraph'
+Plug 'Shougo/deoplete.nvim'
 call plug#end()
