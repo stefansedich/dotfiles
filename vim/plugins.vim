@@ -20,4 +20,5 @@ Plug 'fatih/vim-go'
 Plug 'w0rp/ale'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-endwise'
+Plug 'vim-ruby/vim-ruby'
 call plug#end()
