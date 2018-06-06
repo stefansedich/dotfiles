@@ -11,5 +11,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 map <C-m> :NERDTreeToggle<CR>
 map <C-t> :TagbarToggle<CR>
 
+map <C-[> :pop<CR>
+
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
