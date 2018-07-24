@@ -25,6 +25,7 @@ let g:ale_completion_enabled = 1
 let g:ale_linter_aliases = {'typescriptreact': 'typescript'}
 let g:ale_linters = {
   \ 'typescript': ['tslint', 'tsserver'],
+  \ 'typescriptreact': ['tslint', 'tsserver']
   \ }
 let g:deoplete#enable_at_startup = 1
 let g:easytags_dynamic_files = 1
