@@ -18,6 +18,7 @@ filetype indent on
 filetype plugin on
 
 let NERDTreeShowHidden=1
+let g:go_version_warning = 0
 let g:airline_theme = 'one'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#ale#enabled = 1
