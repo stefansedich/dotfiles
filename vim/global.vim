@@ -27,6 +27,7 @@ let g:ale_linters = {
   \ 'typescript': ['tslint', 'tsserver'],
   \ 'typescriptreact': ['tslint', 'tsserver']
   \ }
+let g:ale_ruby_rubocop_executable = 'bundle'
 let g:deoplete#enable_at_startup = 1
 let g:easytags_dynamic_files = 1
 let g:easytags_async = 1
