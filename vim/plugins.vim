@@ -17,7 +17,6 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'fatih/vim-go'
 Plug 'w0rp/ale'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-endwise'
 Plug 'vim-ruby/vim-ruby'
 Plug 'HerringtonDarkholme/yats.vim'
