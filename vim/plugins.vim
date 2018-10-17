@@ -21,5 +21,4 @@ Plug 'tpope/vim-endwise'
 Plug 'vim-ruby/vim-ruby'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
-Plug 'ervandew/supertab'
 call plug#end()
