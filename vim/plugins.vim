@@ -21,4 +21,5 @@ Plug 'tpope/vim-endwise'
 Plug 'vim-ruby/vim-ruby'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+Plug 'hashivim/vim-terraform'
 call plug#end()
