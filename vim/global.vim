@@ -19,6 +19,8 @@ filetype indent on
 filetype plugin on
 
 let NERDTreeShowHidden=1
+let NERDTreeCascadeSingleChildDir=0
+let NERDTreeCascadeOpenSingleChildDir=0
 let g:ale_set_balloons=1
 let g:go_version_warning = 0
 let g:airline_theme = 'one'
