@@ -5,8 +5,8 @@ if [ -n "$ZSH_VERSION" ]; then
   COMPLETION_WAITING_DOTS="true"
 
   # Powerlevel9k config
-  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv kubecontext vcs)
-  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
+  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status kubecontext history time)
 
   # oh-my-zsh
   plugins=(docker docker-compose git bundler rake ruby kubectl)
