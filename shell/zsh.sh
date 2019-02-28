@@ -4,10 +4,12 @@ if [ -n "$ZSH_VERSION" ]; then
   ZSH_THEME="powerlevel9k/powerlevel9k"
   COMPLETION_WAITING_DOTS="true"
 
-  POWERLEVEL9K_CUSTOM_KUBE_PS1='kube_ps1'
+  zsh_custom_kube_ps1(){
+    echo -n "$(_kube_ps1_symbol)$KUBE_PS1_SEPERATOR$KUBE_PS1_CONTEXT$KUBE_PS1_DIVIDER$KUBE_PS1_NAMESPACE"
+  }
 
   # Powerlevel9k config
-  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv custom_kube_ps1 vcs)
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv zsh_custom_kube_ps1 vcs)
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
 
   # oh-my-zsh
