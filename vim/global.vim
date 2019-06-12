@@ -32,7 +32,7 @@ let g:ale_linter_aliases = {'typescriptreact': 'typescript'}
 let g:ale_linters = {
   \ 'typescript': ['tslint', 'tsserver'],
   \ 'typescriptreact': ['tslint', 'tsserver'],
-  \ 'python': ['flake8', 'pylint']
+  \ 'python': ['flake8']
   \ }
 let g:deoplete#enable_at_startup = 1
 let g:easytags_dynamic_files = 1
