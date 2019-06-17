@@ -40,10 +40,10 @@ let g:ale_python_pyls_config = {
   \   'pyls': {
   \     'plugins': {
   \       'pylint': {
-  \         'enabled': :false
+  \         'enabled': false
   \        }
   \      }
-  \    }
+  \    },
   \ }
 let g:deoplete#enable_at_startup = 1
 let g:easytags_dynamic_files = 1
