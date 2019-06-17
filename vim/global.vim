@@ -41,9 +41,12 @@ let g:ale_python_pyls_config = {
   \     'plugins': {
   \       'pylint': {
   \         'enabled': v:false
+  \        },
+  \        'pycodestyle': {
+  \          'enabled': v:false
   \        }
   \      }
-  \    },
+  \    }
   \ }
 let g:deoplete#enable_at_startup = 1
 let g:easytags_dynamic_files = 1
