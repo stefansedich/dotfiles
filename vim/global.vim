@@ -36,6 +36,15 @@ let g:ale_linters = {
   \ 'typescriptreact': ['tslint', 'tsserver'],
   \ 'python': ['flake8', 'mypy', 'pyls']
   \ }
+let g:ale_python_pyls_config = {
+  \   'pyls': {
+  \     'plugins': {
+  \       'pycodestyle': {
+  \         'enabled': v:false
+  \        }
+  \      }
+  \    },
+  \ }
 let g:deoplete#enable_at_startup = 1
 let g:easytags_dynamic_files = 1
 let g:easytags_async = 1
