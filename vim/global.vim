@@ -39,8 +39,8 @@ let g:ale_linters = {
 let g:ale_python_pyls_config = {
   \   'pyls': {
   \     'plugins': {
-  \       'pycodestyle': {
-  \         'enabled': v:false
+  \       'pylint': {
+  \         'enabled': :false
   \        }
   \      }
   \    },
