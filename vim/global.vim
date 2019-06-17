@@ -40,7 +40,7 @@ let g:ale_python_pyls_config = {
   \   'pyls': {
   \     'plugins': {
   \       'pylint': {
-  \         'enabled': false
+  \         'enabled': v:false
   \        }
   \      }
   \    },
