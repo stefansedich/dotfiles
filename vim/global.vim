@@ -27,7 +27,7 @@ let g:go_version_warning = 0
 let g:airline_theme = 'one'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#ale#enabled = 1
-let g:ale_completion_enabled = 1
+let g:ale_completion_enabled = 0
 let g:ale_python_auto_pipenv = 1
 let g:ale_python_flake8_change_directory = 0
 let g:ale_linter_aliases = {'typescriptreact': 'typescript'}
@@ -60,6 +60,10 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp$',
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
+  
+call deoplete#custom#option('sources', {
+\ '_': ['ale'],
+\})
 
 if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
