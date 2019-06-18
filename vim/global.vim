@@ -11,6 +11,7 @@ set hidden
 set tags=./.tags;,~/.vimtags
 set clipboard=unnamed,unnamedplus
 set mouse=a
+set ttymouse=xterm
 set autoread
 set completeopt=longest,menuone
 
