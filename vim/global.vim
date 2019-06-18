@@ -60,10 +60,6 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp$',
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
-  
-call deoplete#custom#option('sources', {
-\ '_': ['ale'],
-\})
 
 if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
