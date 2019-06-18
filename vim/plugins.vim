@@ -19,7 +19,6 @@ Plug 'fatih/vim-go'
 Plug 'w0rp/ale'
 Plug 'tpope/vim-endwise'
 Plug 'vim-ruby/vim-ruby'
-Plug 'davidhalter/jedi-vim'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'hashivim/vim-terraform'
