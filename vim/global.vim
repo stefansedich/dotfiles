@@ -40,10 +40,13 @@ let g:ale_python_pyls_config = {
   \   'pyls': {
   \     'plugins': {
   \       'pylint': {
-  \         'enabled': v:false
+  \         'enabled': 0
   \        },
   \        'pycodestyle': {
-  \          'enabled': v:false
+  \          'enabled': 0
+  \        },
+  \        'pyflakes': {
+  \          'enabled': 0
   \        }
   \      }
   \    }
