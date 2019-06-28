@@ -34,8 +34,9 @@ let g:ale_linter_aliases = {'typescriptreact': 'typescript'}
 let g:ale_linters = {
   \ 'typescript': ['tslint', 'tsserver'],
   \ 'typescriptreact': ['tslint', 'tsserver'],
-  \ 'python': ['black', 'flake8', 'mypy', 'pyls']
+  \ 'python': ['flake8', 'mypy', 'pyls']
   \ }
+let g:ale_fixers = ['black']
 let g:ale_python_pyls_config = {
   \   'pyls': {
   \     'plugins': {
