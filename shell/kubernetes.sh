@@ -1,4 +1,4 @@
-export PATH="$PATH:$HOME/.krew/bin"
+export PATH="$PATH:$HOME/.krew/bin:/usr/local/kubebuilder/bi"
 
 kube-context() {
   export KUBECONFIG="$HOME/.kube/$1"
