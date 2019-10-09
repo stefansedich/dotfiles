@@ -12,7 +12,7 @@ set tags=./.tags;,~/.vimtags
 set clipboard=unnamed,unnamedplus
 set mouse=a
 set autoread
-set completeopt=longest,menuone
+set completeopt=noselect,menuone,preview
 
 filetype on
 filetype indent on
