@@ -61,8 +61,8 @@ let g:easytags_dynamic_files = 1
 let g:easytags_async = 1
 let g:rspec_command = "Dispatch bundle exec rspec --format progress {spec}"
 let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<c-tab>"
 let g:ruby_debugger_progname = 'mvim'
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp$',
