@@ -9,8 +9,3 @@ kube-context() {
 alias k='kubectl'
 alias kc='kube-context'
 alias kustomize='kubectl kustomize'
-
-# Setup autocomplete
-cat <(kubectl completion zsh) > /tmp/kubectl.completion
-. /tmp/kubectl.completion
-complete -F __start_kubectl k
