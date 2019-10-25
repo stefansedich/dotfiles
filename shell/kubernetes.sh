@@ -1,5 +1,7 @@
 export PATH="$PATH:$HOME/.krew/bin:/usr/local/kubebuilder/bin"
 
+source <(kubectl completion zsh)
+
 kube-context() {
   export KUBECONFIG="$HOME/.kube/$1"
   
