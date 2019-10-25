@@ -1,7 +1,5 @@
 export PATH="$PATH:$HOME/.krew/bin:/usr/local/kubebuilder/bin"
 
-source <(kubectl completion zsh)
-
 kube-context() {
   export KUBECONFIG="$HOME/.kube/$1"
   
@@ -13,5 +11,6 @@ alias kc='kube-context'
 alias kustomize='kubectl kustomize'
 
 # Setup autocomplete
-. <(kubectl completion zsh)
+cat <(kubectl completion zsh) > /tmp/kubectl.completion
+. /tmp/kubectl.completion
 complete -F __start_kubectl k
