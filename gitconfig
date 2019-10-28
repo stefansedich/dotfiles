@@ -1,20 +1,23 @@
 [difftool]
-    prompt = false
-    keepBackup = false
+  prompt = false
+  keepBackup = false
 [diff]
-    tool = vimdiff
+  tool = vimdiff
 [mergetool]
-    prompt = false
-    keepBackup = false
+  prompt = false
+  keepBackup = false
 [merge]
-    tool = vimdiff
+  tool = vimdiff
 [user]
-	name = Stefan Sedich
-	email = stefan.sedich@gmail.com
+  name = Stefan Sedich
+  email = stefan.sedich@gmail.com
+  signingkey = BBDC4034B788E0C6
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
   editor = nvim
+[commit]
+  gpgsign = true
 [sendemail]
   from = Stefan Sedich <stefan.sedich@gmail.com>
   smtpuser = stefan.sedich@gmail.com
