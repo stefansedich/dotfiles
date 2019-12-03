@@ -10,8 +10,8 @@ if [ -n "$ZSH_VERSION" ]; then
 
   # Powerlevel9k config
   POWERLEVEL9K_CUSTOM_KUBE_PS1='zsh_custom_kube_ps1'
-  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs newline aws custom_kube_ps1)
-  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status aws custom_kube_ps1)
 
   # oh-my-zsh
   plugins=(docker docker-compose git bundler rake ruby kubectl kube-ps1)
