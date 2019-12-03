@@ -10,7 +10,7 @@ if [ -n "$ZSH_VERSION" ]; then
 
   # Powerlevel9k config
   POWERLEVEL9K_CUSTOM_KUBE_PS1='zsh_custom_kube_ps1'
-  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir custom_kube_ps1 aws vcs)
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir newline aws custom_kube_ps1 newline vcs)
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
 
   # oh-my-zsh
