@@ -22,4 +22,5 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'hashivim/vim-terraform'
+Plug 'jvirtanen/vim-hcl'
 call plug#end()
