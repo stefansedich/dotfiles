@@ -11,7 +11,7 @@ alias kustomize='kubectl kustomize'
 
 # Comletion helper for the kube-context command.
 _kube_context_completions() {
-  COMPREPLY=($(ls "$HOME/.kube/${COMP_WORDS[1]}*"))
+  COMPREPLY=($(find "$HOME/.kube/" -type f -name "${COMP_WORDS[1]}*" -printf "%f\n"))
 }
 
 complete -F _kube_context_completions kube-context
