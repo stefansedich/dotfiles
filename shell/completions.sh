@@ -1,3 +1,3 @@
-for completion in ~/.completions.d/* ; do
+for completion in ~/.completions/* ; do
   [ -f "$completion" ] && . "$completion"
 done
