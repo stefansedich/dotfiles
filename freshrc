@@ -6,8 +6,8 @@ fresh freshshell/fresh contrib/source-build.sh --file=~/.bashrc
 
 fresh gitconfig --file
 
-fresh completions --file=~/.completions/
 fresh shell/\*
+fresh completions --file=~/.completions/
 
 fresh vim/after --file=~/.vim/after/
 fresh vim/autoload --file=~/.vim/autoload/
