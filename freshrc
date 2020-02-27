@@ -2,11 +2,13 @@
 
 fresh freshshell/fresh bin/fresh --bin
 
-fresh-options freshshell/fresh contrib/source-build.sh --file=~/.zshrc
+fresh-options --file=~/.zshrc
+  fresh freshshell/fresh contrib/source-build.sh
   fresh shell/completions.sh
 fresh-options
 
-fresh-options freshshell/fresh contrib/source-build.sh --file=~/.bashrc
+fresh-options --file=~/.bashrc
+  fresh freshshell/fresh contrib/source-build.sh
   fresh shell/completions.sh
 fresh-options
 
