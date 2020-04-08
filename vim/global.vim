@@ -13,7 +13,6 @@ set clipboard=unnamed,unnamedplus
 set mouse=a
 set autoread
 set completeopt=noselect,menuone,preview
-set spell
 
 filetype on
 filetype indent on
