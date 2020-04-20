@@ -36,13 +36,13 @@ let g:ale_linters = {
   \ 'typescriptreact': ['tslint', 'tsserver'],
   \ 'python': ['flake8', 'mypy', 'pyls'],
   \ 'go': ['gofmt', 'golint', 'govet', 'gopls'],
-  \ 'hcl': ['terraform']
+  \ 'terraform': ['terraform']
   \ }
 let g:ale_fix_on_save = 1
 let g:ale_fixers = {
   \ 'python': ['black'],
   \ 'go': ['gofmt', 'goimports'],
-  \ 'hcl': ['terraform']
+  \ 'terraform': ['terraform']
   \ }
 let g:ale_python_pyls_config = {
   \   'pyls': {
