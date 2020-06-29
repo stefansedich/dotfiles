@@ -7,4 +7,3 @@ kube-context() {
 
 alias k='kubectl'
 alias kc='kube-context'
-alias kustomize='kubectl kustomize'
