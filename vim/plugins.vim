@@ -23,5 +23,4 @@ Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'hashivim/vim-terraform'
 Plug 'jvirtanen/vim-hcl'
-Plug 'tarekbecker/vim-yaml-formatter'
 call plug#end()
