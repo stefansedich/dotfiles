@@ -71,6 +71,7 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp$',
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
+let g:yaml_formatter_indent_collection=0
 
 if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
