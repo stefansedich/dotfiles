@@ -1,7 +1,7 @@
 if [ -n "$ZSH_VERSION" ]; then
   ZSH=$HOME/.oh-my-zsh
   TERM="xterm-256color"
-  ZSH_THEME="powerlevel9k/powerlevel9k"
+  ZSH_THEME="powerlevel10k/powerlevel10k"
   COMPLETION_WAITING_DOTS="true"
 
   zsh_custom_kube_ps1(){
