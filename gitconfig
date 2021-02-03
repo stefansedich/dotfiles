@@ -1,3 +1,5 @@
+[pull]
+  rebase = false
 [difftool]
   prompt = false
   keepBackup = false
