@@ -15,6 +15,6 @@ if [ -n "$ZSH_VERSION" ]; then
 
   eval "$(starship init zsh)"
   
-  test -e "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh && source "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
+  test -e "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" && source "${HOME}/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 fi
