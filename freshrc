@@ -28,6 +28,10 @@ fresh-options --file=~/.vimrc
   fresh vim/undo.vim
 fresh-options
 
+fresh-options --file=~/.config/starship.toml
+  fresh starship.toml
+fresh-options
+
 fresh-options --file=~/.tmux.conf
   fresh tmux/global.conf
 fresh-options
