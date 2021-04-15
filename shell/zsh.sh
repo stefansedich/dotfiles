@@ -13,9 +13,7 @@ if [ -n "$ZSH_VERSION" ]; then
   POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
   POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status aws custom_kube_ps1)
 
-  # oh-my-zsh
-  plugins=(docker docker-compose git bundler rake ruby kubectl kube-ps1)
-
-  test -e "${ZSH}/oh-my-zsh.sh" && source "${ZSH}/oh-my-zsh.sh"
+  eval "$(starship init zsh)"
+  
   test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 fi
