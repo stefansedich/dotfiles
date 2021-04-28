@@ -6,10 +6,6 @@ if [ -n "$ZSH_VERSION" ]; then
   test -e "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" && source "$HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
   test -e "$HOME/.iterm2_shell_integration.zsh" && source "$HOME/.iterm2_shell_integration.zsh"
   
-  autoload -Uz history-search-end
-  zle -N history-beginning-search-backward-end history-search-end
-  zle -N history-beginning-search-forward-end history-search-end
-  
   # Setup key bindings
   bindkey "$terminfo[kcuu1]" history-beginning-search-backward
   bindkey "$terminfo[kcud1]" history-beginning-search-forward
