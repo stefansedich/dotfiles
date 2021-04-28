@@ -7,8 +7,8 @@ if [ -n "$ZSH_VERSION" ]; then
   test -e "$HOME/.iterm2_shell_integration.zsh" && source "$HOME/.iterm2_shell_integration.zsh"
   
   # Setup key bindings
-  bindkey "$terminfo[kcuu1]" history-beginning-search-backward
-  bindkey "$terminfo[kcud1]" history-beginning-search-forward
+  bindkey "$terminfo[kcuu1]" history-substring-search-up
+  bindkey "$terminfo[kcud1]" history-substring-search-down
   
   eval "$(starship init zsh)"
 fi
