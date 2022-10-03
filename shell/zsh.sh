@@ -7,8 +7,8 @@ if [ -n "$ZSH_VERSION" ]; then
   test -e "$HOME/.iterm2_shell_integration.zsh" && source "$HOME/.iterm2_shell_integration.zsh"
   
   # Setup key bindings
-  bindkey "$terminfo[kcuu1]" history-substring-search-up
-  bindkey "$terminfo[kcud1]" history-substring-search-down
+  bindkey '^[[A' history-substring-search-up
+  bindkey '^[[B' history-substring-search-down
   
   # enable color support of ls and also add handy aliases
   alias ls='ls --color=auto'
