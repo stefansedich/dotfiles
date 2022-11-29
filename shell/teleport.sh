@@ -1,6 +1,4 @@
 teleport-login() {
-  export KUBECONFIG="$HOME/.kube/$1"
-  
   unset TELEPORT_PROXY
   unset TELEPORT_CLUSTER
   unset TELEPORT_KUBE_CLUSTER
