@@ -34,7 +34,7 @@ let g:ale_linter_aliases = {'typescriptreact': 'typescript'}
 let g:ale_linters = {
   \ 'typescript': ['tslint', 'tsserver'],
   \ 'typescriptreact': ['tslint', 'tsserver'],
-  \ 'python': ['flake8', 'mypy', 'pyls'],
+  \ 'python': ['flake8', 'mypy', 'pyls', 'ruff'],
   \ 'go': ['gofmt', 'golint', 'govet', 'gopls'],
   \ 'hcl': ['terraform_lsp']
   \ }
