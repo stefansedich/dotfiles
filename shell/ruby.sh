@@ -1,3 +1,1 @@
-if command -v rbenv 1>/dev/null 2>&1; then
-  eval "$(rbenv init - --no-rehash)"
-fi
+lazyload rbenv -- 'eval "$(rbenv init -)"'

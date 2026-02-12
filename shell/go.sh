@@ -1,7 +1,7 @@
 export GOENV_ROOT="$HOME/.goenv"
 export PATH="$GOENV_ROOT/bin:$PATH"
 
-[ -s "$GOENV_ROOT/bin/goenv" ] && eval "$(goenv init - --no-rehash)"
+lazyload goenv -- 'eval "$(goenv init -)"'
 
 export PATH="$GOROOT/bin:$PATH"
 export PATH="$PATH:$GOPATH/bin"
