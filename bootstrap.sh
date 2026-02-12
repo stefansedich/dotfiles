@@ -3,8 +3,8 @@
 # Install starship
 curl -fsSL https://starship.rs/install.sh | bash
 
-# Install antigen
-curl -L git.io/antigen > ~/.zsh/antigen.zsh
+# Install zinit
+NO_EDIT=1 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 
 # Setup neovim symlinks to vim config
 ln -s ~/.vim ~/.config/nvim
