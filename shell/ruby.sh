@@ -1,1 +1,1 @@
-lazyload rbenv -- 'eval "$(rbenv init -)"'
+eval "$(rbenv init - --no-rehash)"
