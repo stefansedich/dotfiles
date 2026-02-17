@@ -19,5 +19,5 @@ Plug 'tpope/vim-endwise'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'hashivim/vim-terraform'
-Plug 'jvirtanen/vim-hcl'
+Plug 'jvirtanen/vim-hcl', { 'branch': 'main' }
 call plug#end()
