@@ -19,4 +19,5 @@ Plug 'tpope/vim-endwise'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'jvirtanen/vim-hcl', { 'branch': 'main' }
+Plug 'github/copilot.vim'
 call plug#end()
