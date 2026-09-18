@@ -4,6 +4,7 @@ compinit
 if command -v podman >/dev/null 2>&1; then
 	source <(podman completion zsh)
 	compdef _podman podman
+	compdef _podman docker
 fi
 
 if command -v kubectl >/dev/null 2>&1; then
