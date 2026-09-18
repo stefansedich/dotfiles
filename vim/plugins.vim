@@ -6,7 +6,7 @@ Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
-Plug 'saghen/blink.cmp', { 'tag': 'v1.*' }
+Plug 'saghen/blink.cmp', { 'branch': 'v1' }
 Plug 'stevearc/conform.nvim'
 Plug 'ibhagwan/fzf-lua'
 Plug 'stevearc/oil.nvim'
