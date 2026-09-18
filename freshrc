@@ -17,7 +17,6 @@ fresh-options
 fresh gitconfig --file
 
 fresh shell/\*
-fresh completions --file=~/.completions/
 
 fresh nvim/after --file=~/.config/nvim/after/
 fresh nvim/autoload --file=~/.config/nvim/autoload/
