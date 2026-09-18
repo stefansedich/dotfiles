@@ -19,16 +19,16 @@ fresh gitconfig --file
 fresh shell/\*
 fresh completions --file=~/.completions/
 
-fresh vim/after --file=~/.config/nvim/after/
-fresh vim/autoload --file=~/.config/nvim/autoload/
+fresh nvim/after --file=~/.config/nvim/after/
+fresh nvim/autoload --file=~/.config/nvim/autoload/
 fresh-options --file=~/.config/nvim/init.vim
-  fresh vim/global.vim
-  fresh vim/plugins.vim
-  fresh vim/plugin-config.vim
-  fresh vim/commands.vim
-  fresh vim/colors.vim
-  fresh vim/keys.vim
-  fresh vim/undo.vim
+  fresh nvim/global.vim
+  fresh nvim/plugins.vim
+  fresh nvim/plugin-config.vim
+  fresh nvim/commands.vim
+  fresh nvim/colors.vim
+  fresh nvim/keys.vim
+  fresh nvim/undo.vim
 fresh-options
 
 fresh-options --file=~/.config/starship.toml
