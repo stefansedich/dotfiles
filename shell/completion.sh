@@ -11,3 +11,9 @@ if command -v kubectl >/dev/null 2>&1; then
 	compdef _kubectl kubectl
 	compdef _kubectl k
 fi
+
+if command -v brew >/dev/null 2>&1; then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+  autoload -Uz compinit
+  compinit
+fi
