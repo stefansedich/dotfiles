@@ -1,8 +1,13 @@
 autoload -Uz compinit
 compinit
 
-source <(podman completion zsh)
-compdef docker=podman
+if command -v podman >/dev/null 2>&1; then
+	source <(podman completion zsh)
+	compdef _podman podman
+fi
 
-source <(kubectl completion zsh)
-compdef k=kubectl
+if command -v kubectl >/dev/null 2>&1; then
+	source <(kubectl completion zsh)
+	compdef _kubectl kubectl
+	compdef _kubectl k
+fi
