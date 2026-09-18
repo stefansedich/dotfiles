@@ -2,7 +2,6 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sleuth'
-Plug 'github/copilot.vim'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/mason.nvim'
