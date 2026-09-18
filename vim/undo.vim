@@ -1,7 +1,8 @@
 " Use persistent history.
-if !isdirectory("/tmp/.vim-undo-dir")
-    call mkdir("/tmp/.vim-undo-dir", "", 0700)
+let s:undo_dir = stdpath('state') . '/undo'
+if !isdirectory(s:undo_dir)
+    call mkdir(s:undo_dir, "p", 0700)
 endif
 
-set undodir=/tmp/.vim-undo-dir
+execute 'set undodir=' . escape(s:undo_dir, ' ' . '\')
 set undofile

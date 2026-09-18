@@ -1,22 +1,16 @@
-call plug#begin('~/.vim/plugged')
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-easytags'
-Plug 'kien/ctrlp.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+call plug#begin(stdpath('data') . '/plugged')
 Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-dispatch'
-Plug 'mileszs/ack.vim'
-Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-sleuth'
-Plug 'honza/vim-snippets'
-Plug 'fatih/vim-go'
-Plug 'w0rp/ale'
-Plug 'tpope/vim-endwise'
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'hashivim/vim-terraform'
-Plug 'jvirtanen/vim-hcl', { 'branch': 'main' }
 Plug 'github/copilot.vim'
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'saghen/blink.cmp', { 'tag': 'v1.*' }
+Plug 'stevearc/conform.nvim'
+Plug 'ibhagwan/fzf-lua'
+Plug 'stevearc/oil.nvim'
+Plug 'lewis6991/gitsigns.nvim'
+Plug 'folke/which-key.nvim'
 call plug#end()

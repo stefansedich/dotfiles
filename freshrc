@@ -19,11 +19,12 @@ fresh gitconfig --file
 fresh shell/\*
 fresh completions --file=~/.completions/
 
-fresh vim/after --file=~/.vim/after/
-fresh vim/autoload --file=~/.vim/autoload/
-fresh-options --file=~/.vimrc
+fresh vim/after --file=~/.config/nvim/after/
+fresh vim/autoload --file=~/.config/nvim/autoload/
+fresh-options --file=~/.config/nvim/init.vim
   fresh vim/global.vim
   fresh vim/plugins.vim
+  fresh vim/plugin-config.vim
   fresh vim/commands.vim
   fresh vim/colors.vim
   fresh vim/keys.vim

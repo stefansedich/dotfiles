@@ -3,15 +3,13 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
+nnoremap <silent> <Leader>f :lua require('conform').format({ async = true, lsp_fallback = true })<CR>
+nnoremap <silent> <Leader>e :Oil<CR>
+nnoremap <silent> <Leader>ff :FzfLua files<CR>
+nnoremap <silent> <Leader>fg :FzfLua live_grep<CR>
+nnoremap <silent> <Leader>fb :FzfLua buffers<CR>
+nnoremap <silent> <Leader>ca :lua vim.lsp.buf.code_action()<CR>
+nnoremap <silent> <Leader>rn :lua vim.lsp.buf.rename()<CR>
+nnoremap <silent> <Leader>d :lua vim.diagnostic.open_float()<CR>
 
-map <C-m> :NERDTreeToggle<CR>
-map <C-t> :TagbarToggle<CR>
-
-map <C-[> :pop<CR>
-
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
+nnoremap <C-[> :pop<CR>
