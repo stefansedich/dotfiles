@@ -1,6 +1,3 @@
-autoload -Uz compinit
-compinit
-
 if command -v podman >/dev/null 2>&1; then
 	source <(podman completion zsh)
 	compdef _podman podman
@@ -15,6 +12,7 @@ fi
 
 if command -v brew >/dev/null 2>&1; then
   FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
-  autoload -Uz compinit
-  compinit
 fi
+
+autoload -Uz compinit
+compinit

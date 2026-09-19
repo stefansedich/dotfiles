@@ -8,12 +8,6 @@ fresh-options --file=~/.zshrc
   fresh shell/completion.sh
 fresh-options
 
-fresh-options --file=~/.bashrc
-  fresh shell/zinit.sh
-  fresh freshshell/fresh contrib/source-build.sh
-  fresh shell/completion.sh
-fresh-options
-
 fresh gitconfig --file
 
 fresh shell/\*
