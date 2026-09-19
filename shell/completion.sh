@@ -1,4 +1,9 @@
+if command -v brew >/dev/null 2>&1; then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+fi
+
 autoload -Uz compinit
+compinit
 
 if command -v podman >/dev/null 2>&1; then
 	source <(podman completion zsh)
@@ -11,9 +16,3 @@ if command -v kubectl >/dev/null 2>&1; then
 	compdef _kubectl kubectl
 	compdef _kubectl k
 fi
-
-if command -v brew >/dev/null 2>&1; then
-  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
-fi
-
-compinit
